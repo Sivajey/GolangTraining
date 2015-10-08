@@ -4,13 +4,15 @@ import (
 	"crypto/sha1"
 	"encoding/json"
 	"fmt"
-	"github.com/gorilla/sessions"
+	
 	"html/template"
 	"io"
 	"mime/multipart"
 	"net/http"
 	"os"
 	"path/filepath"
+	
+	
 	"github.com/gorilla/context"
 )
 
